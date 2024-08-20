@@ -4,7 +4,7 @@ const crypto = require('node:crypto')
 const { validateMovie, validatePartialMovie } = require('./squemas/SQmovies')
 const cors = require('cors')
 
-const PORT = process.env.PORT ?? 1234
+const PORT = process.env.PORT ?? 10000
 
 const app = express()
 
